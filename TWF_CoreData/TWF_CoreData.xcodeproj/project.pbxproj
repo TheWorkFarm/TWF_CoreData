@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F55F571316B65900FF80DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F55F561316B65900FF80DB /* UIKit.framework */; };
+		01F55F591316B65900FF80DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F55F581316B65900FF80DB /* Foundation.framework */; };
+		01F55F5B1316B65900FF80DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F55F5A1316B65900FF80DB /* CoreGraphics.framework */; };
+		01F55F5D1316B65900FF80DB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F55F5C1316B65900FF80DB /* CoreData.framework */; };
+		01F55F631316B65900FF80DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01F55F611316B65900FF80DB /* InfoPlist.strings */; };
+		01F55F661316B65900FF80DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F55F651316B65900FF80DB /* main.m */; };
+		01F55F691316B65900FF80DB /* TWF_CoreDataAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F55F681316B65900FF80DB /* TWF_CoreDataAppDelegate.m */; };
+		01F55F6C1316B65900FF80DB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01F55F6A1316B65900FF80DB /* MainWindow.xib */; };
+		01F55F6F1316B65900FF80DB /* TWF_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01F55F6D1316B65900FF80DB /* TWF_CoreData.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01F55F521316B65900FF80DB /* TWF_CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWF_CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F55F561316B65900FF80DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01F55F581316B65900FF80DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01F55F5A1316B65900FF80DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01F55F5C1316B65900FF80DB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		01F55F601316B65900FF80DB /* TWF_CoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TWF_CoreData-Info.plist"; sourceTree = "<group>"; };
+		01F55F621316B65900FF80DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01F55F641316B65900FF80DB /* TWF_CoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TWF_CoreData-Prefix.pch"; sourceTree = "<group>"; };
+		01F55F651316B65900FF80DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01F55F671316B65900FF80DB /* TWF_CoreDataAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWF_CoreDataAppDelegate.h; sourceTree = "<group>"; };
+		01F55F681316B65900FF80DB /* TWF_CoreDataAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWF_CoreDataAppDelegate.m; sourceTree = "<group>"; };
+		01F55F6B1316B65900FF80DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		01F55F6E1316B65900FF80DB /* TWF_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TWF_CoreData.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01F55F4F1316B65900FF80DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F55F571316B65900FF80DB /* UIKit.framework in Frameworks */,
+				01F55F591316B65900FF80DB /* Foundation.framework in Frameworks */,
+				01F55F5B1316B65900FF80DB /* CoreGraphics.framework in Frameworks */,
+				01F55F5D1316B65900FF80DB /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F55F471316B65900FF80DB = {
+			isa = PBXGroup;
+			children = (
+				01F55F5E1316B65900FF80DB /* TWF_CoreData */,
+				01F55F551316B65900FF80DB /* Frameworks */,
+				01F55F531316B65900FF80DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01F55F531316B65900FF80DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01F55F521316B65900FF80DB /* TWF_CoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01F55F551316B65900FF80DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01F55F561316B65900FF80DB /* UIKit.framework */,
+				01F55F581316B65900FF80DB /* Foundation.framework */,
+				01F55F5A1316B65900FF80DB /* CoreGraphics.framework */,
+				01F55F5C1316B65900FF80DB /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01F55F5E1316B65900FF80DB /* TWF_CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				01F55F671316B65900FF80DB /* TWF_CoreDataAppDelegate.h */,
+				01F55F681316B65900FF80DB /* TWF_CoreDataAppDelegate.m */,
+				01F55F6A1316B65900FF80DB /* MainWindow.xib */,
+				01F55F6D1316B65900FF80DB /* TWF_CoreData.xcdatamodeld */,
+				01F55F5F1316B65900FF80DB /* Supporting Files */,
+			);
+			path = TWF_CoreData;
+			sourceTree = "<group>";
+		};
+		01F55F5F1316B65900FF80DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01F55F601316B65900FF80DB /* TWF_CoreData-Info.plist */,
+				01F55F611316B65900FF80DB /* InfoPlist.strings */,
+				01F55F641316B65900FF80DB /* TWF_CoreData-Prefix.pch */,
+				01F55F651316B65900FF80DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01F55F511316B65900FF80DB /* TWF_CoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F55F721316B65900FF80DB /* Build configuration list for PBXNativeTarget "TWF_CoreData" */;
+			buildPhases = (
+				01F55F4E1316B65900FF80DB /* Sources */,
+				01F55F4F1316B65900FF80DB /* Frameworks */,
+				01F55F501316B65900FF80DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWF_CoreData;
+			productName = TWF_CoreData;
+			productReference = 01F55F521316B65900FF80DB /* TWF_CoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01F55F491316B65900FF80DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "The Work Farm Ltd.";
+			};
+			buildConfigurationList = 01F55F4C1316B65900FF80DB /* Build configuration list for PBXProject "TWF_CoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01F55F471316B65900FF80DB;
+			productRefGroup = 01F55F531316B65900FF80DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01F55F511316B65900FF80DB /* TWF_CoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01F55F501316B65900FF80DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F55F631316B65900FF80DB /* InfoPlist.strings in Resources */,
+				01F55F6C1316B65900FF80DB /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F55F4E1316B65900FF80DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F55F661316B65900FF80DB /* main.m in Sources */,
+				01F55F691316B65900FF80DB /* TWF_CoreDataAppDelegate.m in Sources */,
+				01F55F6F1316B65900FF80DB /* TWF_CoreData.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01F55F611316B65900FF80DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01F55F621316B65900FF80DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01F55F6A1316B65900FF80DB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01F55F6B1316B65900FF80DB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01F55F701316B65900FF80DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01F55F711316B65900FF80DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		01F55F731316B65900FF80DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TWF_CoreData/TWF_CoreData-Prefix.pch";
+				INFOPLIST_FILE = "TWF_CoreData/TWF_CoreData-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01F55F741316B65900FF80DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TWF_CoreData/TWF_CoreData-Prefix.pch";
+				INFOPLIST_FILE = "TWF_CoreData/TWF_CoreData-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F55F4C1316B65900FF80DB /* Build configuration list for PBXProject "TWF_CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F55F701316B65900FF80DB /* Debug */,
+				01F55F711316B65900FF80DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F55F721316B65900FF80DB /* Build configuration list for PBXNativeTarget "TWF_CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F55F731316B65900FF80DB /* Debug */,
+				01F55F741316B65900FF80DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01F55F6D1316B65900FF80DB /* TWF_CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01F55F6E1316B65900FF80DB /* TWF_CoreData.xcdatamodel */,
+			);
+			currentVersion = 01F55F6E1316B65900FF80DB /* TWF_CoreData.xcdatamodel */;
+			path = TWF_CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01F55F491316B65900FF80DB /* Project object */;
+}
